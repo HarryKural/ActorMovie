@@ -1,0 +1,17 @@
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+.waves-effect.waves-green {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+    background-color: whitesmoke;
+    color: forestgreen;
+}
+
+.waves-effect.waves-red {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+    background-color: whitesmoke;
+    color: red;
+}

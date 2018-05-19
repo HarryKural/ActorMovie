@@ -1,0 +1,16 @@
+USE `gc200333254`;
+
+DROP TABLE IF EXISTS movies;
+
+DROP TABLE IF EXISTS actors;
+
+CREATE TABLE actors
+(
+	id			INT(11)			NOT NULL AUTO_INCREMENT,
+	first_name 	VARCHAR(50) 	NOT NULL,
+	last_name 	VARCHAR(50) 	NOT NULL,
+    gender		VARCHAR(10)		NOT NULL,
+    nationality	VARCHAR(20)		NOT NULL,
+	bio_link 	VARCHAR(100)	DEFAULT NULL,
+	PRIMARY KEY (id)
+);
